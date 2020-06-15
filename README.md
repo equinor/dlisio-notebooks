@@ -1,5 +1,7 @@
 # Getting started with acoustic well log data using the dlisio Python library on the Volve Data Village dataset
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/equinor/dlisio-notebooks/master?filepath=acoustic.ipynb)
+
 This repository contains the [companion Jupyter
 Notebook](https://github.com/equinor/dlisio-notebooks/blob/master/acoustic.ipynb)
 to the article [Getting started with acoustic well log data using the dlisio
@@ -23,4 +25,6 @@ The file used in this notebook is from the Volve field, which was made publicly
 available by Equinor in 2018. The file, along with the rest of the Volve data
 can be downloaded from [here](https://data.equinor.com). Specifically, the
 notebook uses the well integrity log file
-`WL_RAW_PROD_AC-AIMG-CCL-GR_2013-06-05_2.DLIS` from well F-11 B.
+`WL_RAW_PROD_AC-AIMG-CCL-GR_2013-06-05_2.DLIS` from well F-11 B. The notebook
+will download the file to the root folder automatically, if it's not already
+there.
