@@ -5,4 +5,4 @@ matplotlib==3.5.1
 scipy==1.7.3
 jupyter==1.0.0
 notebook==6.4.11
-azure-cli
+azure-storage-blob==12.12.0
