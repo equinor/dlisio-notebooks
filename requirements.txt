@@ -5,6 +5,7 @@ matplotlib==3.9.0
 scipy==1.13.1
 notebook==7.2.0
 azure-storage-blob==12.20.0
+pyarrow==16.1.0 # suppresses deprecation warning by pandas
 cryptography>=42.0.4 # not directly required, pinned by Snyk to avoid a vulnerability
 fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
 ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
