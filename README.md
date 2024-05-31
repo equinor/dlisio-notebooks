@@ -1,3 +1,8 @@
+**Notice**: This repository has been archived and is no longer under active
+development. If you have any questions or requests related to the work or
+content within this repository, please contact the authors of the associated
+publication directly.
+
 # Getting started with acoustic well log data using the dlisio Python library on the Volve Data Village dataset
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/equinor/dlisio-notebooks/master?filepath=acoustic.ipynb)
