@@ -1,8 +1,14 @@
-dlisio==0.3.6
-pandas==1.4.2
-numpy==1.22.3
-matplotlib==3.5.1
-scipy==1.7.3
-jupyter==1.0.0
-notebook==6.4.11
-azure-storage-blob==12.12.0
+dlisio==1.0.1
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.9.0
+scipy==1.13.1
+notebook==7.2.0
+azure-storage-blob==12.20.0
+pyarrow==16.1.0 # suppresses deprecation warning by pandas
+cryptography>=42.0.4 # not directly required, pinned by Snyk to avoid a vulnerability
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
